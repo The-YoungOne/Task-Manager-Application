@@ -31,14 +31,14 @@ export default function TabLayout() {
         name="index"
         options={{
           title: 'Home',
-          tabBarIcon: ({ color,focused }) => <IconSymbol size={28} name={focused ? "house.fill" : "house"} color={color} />,
+          tabBarIcon: ({ color,focused }) => <IconSymbol size={28} name={focused ? 'home-circle' : 'home-circle-outline'} color={color} />,
         }}
       />
       <Tabs.Screen
         name="contact"
         options={{
           title: 'Contact',
-          tabBarIcon: ({ color,focused }) => <IconSymbol size={28} name={focused ? "paperplane.fill" : "paperplane"} color={color} />,
+          tabBarIcon: ({ color,focused }) => <IconSymbol size={28} name={focused ? 'people-circle' : 'people-circle-outline'} color={color} />,
         }}
       />
     </Tabs>
